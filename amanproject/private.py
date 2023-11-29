@@ -116,13 +116,13 @@ import random
 # else:
 #     print(subs,"is not found in main string")
 
-a=int(input("enter any number b/w 1 to 9:"))
-b= random.randrange(1,9)
-for i in range(b):
-    print("the number is matched:")
-else:
-    print("the number is not matched:")
-    option= ("do you want to any other number:[yes|no]")
-    if option == "no":
-    break
-print("thanx")
+# a=int(input("enter any number b/w 1 to 9:"))
+# b= random.randrange(1,9)
+# for i in range(b):
+#     print("the number is matched:")
+# else:
+#     print("the number is not matched:")
+#     option= ("do you want to any other number:[yes|no]")
+#     if option == "no":
+#     break
+# print("thanx")

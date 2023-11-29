@@ -47,7 +47,7 @@ import random
 
 ####OOP-OBJECT ORIENTED PROGRAMMING
 #camelcase=Aman Vishwakarma
-class DemoClass:
+# class DemoClass:
 #     a=10000
 # object=DemoClass()
 # print(object.a)
@@ -57,5 +57,43 @@ class DemoClass:
 #     object.sum()
 
 ##CONSTRUCTOR
-        def__init_
-print("hi")
+#         def__init_
+# print("hi")
+
+# class Democlass:
+#
+#     a=100
+#
+#     def showdetail(self):
+#         print("hello world")
+#
+#     def __init__(self):
+#         print("welcome aao swagat hai")
+#
+# obj=Democlass()
+# obj.showdetail()
+# obj.__init__()
+# print(obj.a)
+
+#ENCAPSULATION
+
+# class person:
+#         __name = ""
+#         __age = ""
+#         __salary = ""
+#         __bonus = ""
+#
+#         def setpersoninfo(self,name,age,salary,bonus):
+#             self.__name = name
+#             self.__age = age
+#             self.__salary = salary
+#             self.__bonus = bonus
+#
+#         def getpersoninfo(self):
+#             return self.__name,self.__age,self.__salary,self.__bonus
+#
+# obj=person()
+# obj.setpersoninfo("jalaj",28,250000,5000)
+# print(obj.getpersoninfo())
+
+

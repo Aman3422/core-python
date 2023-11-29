@@ -166,12 +166,6 @@
 # else:
 #     print("invalid")
 
-import module
-module.sub(50,500)
-
-from module import add
-module.add(100,200,0,0,0,0)
-
 
 
 

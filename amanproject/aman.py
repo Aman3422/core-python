@@ -22,3 +22,12 @@
 
 
 
+
+#MULTILEVEL INHERITANCE
+
+#BREAK
+
+# for a in range(1,10):
+#     if a%2==0:
+#         continue
+#     print(a)
