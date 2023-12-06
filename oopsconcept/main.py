@@ -47,29 +47,29 @@
 
 ###RAISE EXEPTION
 
-try:
-    num1=int(input("enter a numerator:"))
-    num2=int(input("enter a denominator:"))
-
-    result=num1/num2
-##THIS WILL RAISE AN EXCEPTION IF THE RESULT IS A DECIMAL
-    if result %1 !=0:
-        raise ValueError("result is not an integer")
-
-##THIS WILL RAISE AN EXCEPTION IF THE RESULT IS NEGATIVE
-
-    if result <0:
-        raise ValueError("result is negative",result)
-
-    print(f"the result of the division is: {result}")
-
-except ValueError as ve:
-    print(f"Error:{ve}")
-
-except ZeroDivisionError:
-    print("Error:cannot divide by zero")
-
-except Exception as e:
-    print(e)
-
+# try:
+#     num1=int(input("enter a numerator:"))
+#     num2=int(input("enter a denominator:"))
+#
+#     result=num1/num2
+# ##THIS WILL RAISE AN EXCEPTION IF THE RESULT IS A DECIMAL
+#     if result %1 !=0:
+#         raise ValueError("result is not an integer")
+#
+# ##THIS WILL RAISE AN EXCEPTION IF THE RESULT IS NEGATIVE
+#
+#     if result <0:
+#         raise ValueError("result is negative",result)
+#
+#     print(f"the result of the division is: {result}")
+#
+# except ValueError as ve:
+#     print(f"Error:{ve}")
+#
+# except ZeroDivisionError:
+#     print("Error:cannot divide by zero")
+#
+# except Exception as e:
+#     print(e)
+#
 

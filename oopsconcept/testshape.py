@@ -35,7 +35,25 @@
 # print(cir.area())
 # print(cir.area()*obj.area())
 
-from traingle import traingle
-tri=traingle(12,5)
-print(tri.area())
+# from traingle import traingle
+# tri=traingle(12,5)
+# print(tri.area())
+#
+
+# class A:
+#     "i am python developer"
+#     name="Rays"
+#     age=23
+#     print(name)
+#
+#     def show(self):
+#         "i am t trader"
+#         self.salary=1000
+#         print(self.salary)
+#
+# object=A()
+# print(A.age)
+# print(object.__doc__)
+# object.show()
+# print(object.show.__doc__)
 
